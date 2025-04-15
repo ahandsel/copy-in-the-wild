@@ -1,12 +1,16 @@
 # User feedback survey
 
-## Table of contents <!-- omit in toc --> 
+
+## Table of contents <!-- omit in toc -->
+
 * [Reference Grammarly's Survey for User Feedback](#reference-grammarlys-survey-for-user-feedback)
   * [Email](#email)
   * [Survey Introduction](#survey-introduction)
   * [Survey Consent Form](#survey-consent-form)
 
+
 ## Reference Grammarly's Survey for User Feedback
+
 
 ### Email
 
@@ -26,12 +30,15 @@ When you complete the survey, we’ll send you a $5 digital gift card or donate 
   
 Thank you so much for your interest in sharing feedback with Grammarly!
 
+
 ### Survey Introduction
+
 Thank you for participating in our survey! Please answer the following questions. Your responses will go directly to our team to help improve Grammarly.
 
 As a thank you for completing this survey, we will send your thank you gift to the email address you provide at the end of this survey. Please allow two weeks to receive it.
 
 Click the arrow to continue.  
+
 
 ### Survey Consent Form
 

@@ -1,13 +1,20 @@
 # Example Verify Email Address Emails
 
+
 ## Table of contents <!-- omit in toc -->
+
 * [Discord example](#discord-example)
   * [Email to verify email address](#email-to-verify-email-address)
   * [Email verification link expired page](#email-verification-link-expired-page)
-  * [Email address changed confirmation email](#email-address-changed-confirmation-email)
+  * [Email address changed - confirmation email sent to new email](#email-address-changed---confirmation-email-sent-to-new-email)
+  * [Email address changed - verification email sent to old email](#email-address-changed---verification-email-sent-to-old-email)
+* [Okta](#okta)
+  * [Verification email](#verification-email)
+  * [Verification prompt](#verification-prompt)
 
 
 ## Discord example
+
 
 ### Email to verify email address
 
@@ -20,10 +27,11 @@ Thanks for registering for an account on Discord! Before we get started, we just
 
 [Verify Email]
 
-Need help? [Contact our support team] or hit us up on X [@discord].\
+Need help? [Contact our support team][] or hit us up on X [@discord].\
 Want to give us feedback? Let us know what you think on our [feedback site].
-Sent by Discord - [Check Our Blog] - [@discord]
+Sent by Discord - [Check Our Blog][] - [@discord]
 444 De Haro Street, Suite 200, San Francisco, CA 94107
+
 
 ### Email verification link expired page
 
@@ -31,9 +39,10 @@ Title: Email verification link has expired.
 
 Body: Please log in and resend the link.
 
-Button: Log In
+Button: [Log In][]
 
 ![Discord's Email verification link expired page](./img/discord-email-verify-expired.png)
+
 
 ### Email address changed - confirmation email sent to new email
 
@@ -55,6 +64,7 @@ Want to give us feedback? Let us know what you think on our feedback site.
 Sent by Discord • Check Our Blog • @discord
 444 De Haro Street, Suite 200, San Francisco, CA 94107
 
+
 ### Email address changed - verification email sent to old email
 
 **Subject Line**:  
@@ -75,3 +85,30 @@ Want to give us feedback? Let us know what you think on our feedback site.
 
 Sent by Discord • Check Our Blog • @discord
 444 De Haro Street, Suite 200, San Francisco, CA 94107
+
+
+## Okta
+
+* Help doc: [Users Receiving Email Verification Requests from Okta (email.crossOrgSamlEmailVerification)](https://support.okta.com/help/s/article/users-receiving-email-verification-requests-from-okta-email-crossorgsamlemailverification?language=en_US)
+* Okta may send a one-time email verification for security.
+* This happens when users access certain apps, like the Help Center.
+* A new verification is needed if the email has changed since the last check.
+
+
+### Verification email
+
+| Description | English                                                                                    |
+| ----------- | ------------------------------------------------------------------------------------------ |
+| Greeting    | Hi User,                                                                                   |
+| Body        | To verify your email address, please click the following link:                             |
+| CTA button  | [Verify Email]                                                                             |
+| Footer      | This is an automatically generated message by Okta. Replies are not monitored or answered. |
+
+
+### Verification prompt
+
+| Description | English                                 |
+| ----------- | --------------------------------------- |
+| Title       | Email Verification Needed               |
+| Body        | An email has been sent for verification |
+| CTA button  | [Go to Homepage]                        |

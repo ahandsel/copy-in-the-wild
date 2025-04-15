@@ -1,5 +1,7 @@
 # Writing Style Guides
+
 _Design Systems_ for technical writers
+
 
 ## Open Source Style Guides
 
@@ -13,5 +15,7 @@ _Design Systems_ for technical writers
 
 [Google developer documentation style guide](https://developers.google.com/style)
 
+
 ## Sources
+
 [Style Guides - Write the Docs](https://www.writethedocs.org/guide/writing/style-guides/)
