@@ -27,9 +27,9 @@ Thanks for registering for an account on Discord! Before we get started, we just
 
 [Verify Email]
 
-Need help? [Contact our support team][] or hit us up on X [@discord].\
+Need help? [Contact our support team] or hit us up on X [@discord].\
 Want to give us feedback? Let us know what you think on our [feedback site].
-Sent by Discord - [Check Our Blog][] - [@discord]
+Sent by Discord - [Check Our Blog] - [@discord]
 444 De Haro Street, Suite 200, San Francisco, CA 94107
 
 
@@ -39,7 +39,7 @@ Title: Email verification link has expired.
 
 Body: Please log in and resend the link.
 
-Button: [Log In][]
+Button: [Log In]
 
 ![Discord's Email verification link expired page](./img/discord-email-verify-expired.png)
 
