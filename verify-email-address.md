@@ -35,7 +35,7 @@ Button: Log In
 
 ![Discord's Email verification link expired page](./img/discord-email-verify-expired.png)
 
-### Email address changed confirmation email
+### Email address changed - confirmation email sent to new email
 
 **Subject Line**:  
 Discord Email Address Changed
@@ -49,6 +49,27 @@ If this wasn't done by you, please contact dis.gd/contact immediately so we can 
 Best,
 Discord Team
 
+Need help? Contact our support team or hit us up on X @discord.
+Want to give us feedback? Let us know what you think on our feedback site.
+
+Sent by Discord • Check Our Blog • @discord
+444 De Haro Street, Suite 200, San Francisco, CA 94107
+
+### Email address changed - verification email sent to old email
+
+**Subject Line**:  
+Discord Email Address Changed
+
+**Email body**:  
+What's up {{username}},
+Your Discord account email address has been successfully changed!
+
+If this change wasn't made by you, or was made in error, use the button below within 48 hours of receiving this email to revert the change.
+
+Best,
+Discord Team
+
+Start Account Recovery
 Need help? Contact our support team or hit us up on X @discord.
 Want to give us feedback? Let us know what you think on our feedback site.
 
