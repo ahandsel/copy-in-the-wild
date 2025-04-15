@@ -33,7 +33,7 @@
 
 メールアドレスの認証が完了していません。セキュリティ向上のため、一部の機能を制限しています。認証用メールを送信するにはこちらをクリックしてください。
 
-> Your email isn't confirmed.Some features are restricted to improve security. [Click here to send a verification email.]
+> Your email isn't confirmed. Some features are restricted to improve security. [Click here to send a verification email.]
 
 
 ### Email to verify email address
