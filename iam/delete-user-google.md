@@ -107,3 +107,27 @@ This user's data is being transferred. You'll get an email when that's complete,
 When the transfer is still in progress, the user's account will be suspended to prevent them from accessing their account.
 
 After the deletion you have 20 days to restore the account, after which all the data be permanently deleted. [Learn more](https://support.google.com/a/answer/1397578?hl=en)
+
+
+## Confirmation email
+
+**Subject line:**  
+Your deletion of {{user_full_name}} from Google Workspace was successful
+
+**Body:**  
+![Google Workspace] logo
+
+Hello Admin,  
+
+Google Workspace recently processed a request from {{admin_user_name}} ({{admin_user_email_address}}) to delete {{user_full_name}} ({{user_email_address}}) and transfer their data to {{admin_user_name}} ({{admin_user_email_address}}).
+
+The data transfer was successful and {{user_full_name}} ({{user_email_address}}) was deleted.
+
+**Sincerely,**
+**The Google Workspace Team**
+
+**Footer:**  
+Google Workspace
+© 2025 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
+
+You’re receiving this mandatory email service announcement to update you about important changes to your Google Workspace product or account.
