@@ -15,6 +15,10 @@
   * [Footer](#footer)
   * [CTA buttons](#cta-buttons)
   * [Screenshot](#screenshot)
+* [Confirmation modal](#confirmation-modal)
+  * [Title](#title-1)
+  * [Body](#body)
+* [Confirmation email](#confirmation-email)
 
 
 ## Delete User UX Copy Modal
@@ -130,4 +134,4 @@ The data transfer was successful and {{user_full_name}} ({{user_email_address}})
 Google Workspace
 © 2025 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
 
-You’re receiving this mandatory email service announcement to update you about important changes to your Google Workspace product or account.
+You're receiving this mandatory email service announcement to update you about important changes to your Google Workspace product or account.
