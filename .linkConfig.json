@@ -1,7 +1,8 @@
 {
   "projectBaseUrl": "${workspaceFolder}",
   "ignorePatterns": [
-    { "pattern": "^https://github.com/" }
+    { "pattern": "^https://github.com/" },
+    { "pattern": "^(?!/public/.*\\.(png|jpg|jpeg|gif|svg|ico)).*$" }
   ],
   "timeout": "20s",
   "retryOn429": true,
