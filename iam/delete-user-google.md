@@ -102,7 +102,7 @@ Once you delete this user their license will be removed.
 
 ### Screenshot
 
-![delete-user-google](../public/delete-user-google.png)
+![delete-user-google](../delete-user-google.png)
 
 
 ## Confirmation modal
