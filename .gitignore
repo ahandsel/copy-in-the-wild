@@ -18,7 +18,7 @@ pnpm-debug.log*
 .env.*.local
 
 # Optional: VSCode settings
-.vscode/
+# .vscode/
 
 # macOS system files
 .DS_Store
