@@ -1,5 +1,10 @@
-# Copilot instructions for VitePress document repository
+# Project overview
 
+This project is a VitePress-based documentation site that provides reference material and guides for writers. It is built using VitePress, a static site generator powered by Vite and Vue (https://vitepress.dev/).
+
+## Folder structure
+* `.github/`: GitHub-specific files, including issue templates and workflows.
+* `public/`: Image assets used in the documentation.
 
 ## Purpose
 
@@ -29,7 +34,7 @@ Every Markdown file must include frontmatter that matches the site settings.
 ```yaml
 ---
 title: "Page title"
-description: "1–2 sentence summary for search and previews"
+description: "1-2 sentence summary for search and previews"
 layout: doc
 outline: deep
 footer: true
