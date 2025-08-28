@@ -16,7 +16,7 @@ const vitePressOptions = {
       {
         name: "keywords",
         content:
-          "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress",
+          "ux copy, email copy, ahandsel, GitHub, VitePress",
       },
     ],
     [
@@ -126,20 +126,20 @@ const vitePressOptions = {
   },
 };
 
-// const vitePressSidebarOptions = [
+const vitePressSidebarOptions = [
 //   // VitePress Sidebar's options here...
-//   {
-//     documentRootPath: "docs",
-//     scanStartPath: "guides",
-//     basePath: "/guides/",
-//     resolvePath: "/guides/",
-//     useTitleFromFileHeading: true,
-//     includeDotFiles: true,
-//     useFolderTitleFromIndexFile: true,
-//     sortMenusByFrontmatterOrder: true,
-//     frontmatterOrderDefaultValue: 10,
-//     sortFolderTo: "top",
-//   },
+  {
+    documentRootPath: "/",
+    // scanStartPath: "",
+    // basePath: ".",
+    resolvePath: "/",
+    useTitleFromFrontmatter: true,
+    // includeDotFiles: true,
+    useFolderTitleFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
+    frontmatterOrderDefaultValue: 10,
+    sortFolderTo: "top",
+  }
 //   {
 //     documentRootPath: "docs",
 //     scanStartPath: "local",
@@ -162,7 +162,7 @@ const vitePressOptions = {
 //     frontmatterOrderDefaultValue: 10,
 //     sortFolderTo: "top",
 //   },
-// ];
+];
 
 // export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
 // export default defineConfig(
@@ -171,5 +171,5 @@ const vitePressOptions = {
 //   defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions))
 // );
 export default withPwa(
-  defineConfig(withSidebar(vitePressOptions))
+  defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions))
 );
