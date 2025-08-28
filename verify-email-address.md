@@ -51,7 +51,7 @@ Body: Please log in and resend the link.
 
 Button: [Log In]
 
-![Discord's Email verification link expired page](./discord-email-verify-expired.png)
+![Discord's Email verification link expired page](/discord-email-verify-expired.png)
 
 
 ### Email address changed - confirmation email sent to new email

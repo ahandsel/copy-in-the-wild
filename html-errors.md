@@ -27,4 +27,4 @@ Oops!!! 500
 
 We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.
 
-![GitHub 500 Error](./html-error-500-github.png)
+![GitHub 500 Error](/html-error-500-github.png)
