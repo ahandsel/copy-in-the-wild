@@ -17,7 +17,7 @@ npm run dev
 Markdown Linting
 
 ```bash
-~/.scripts/md-lint.sh ./docs
+~/.scripts/md-lint.sh ./
 ```
 
 Link Checking

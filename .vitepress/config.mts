@@ -64,7 +64,7 @@ const vitePressOptions = {
       },
     ],
     editLink: {
-      pattern: "https://github.com/ahandsel/copy-in-the-wild/edit/main/docs/:path",
+      pattern: "https://github.com/ahandsel/copy-in-the-wild/edit/main/:path",
       text: "Edit this page on GitHub",
     },
   },
