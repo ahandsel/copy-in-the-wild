@@ -1,10 +1,13 @@
 {
-  "cSpell.words": [
-    "frontmatter",
-    "Haro",
-    "mailchimp",
-    "Qiita"
-  ],
+  "cSpell.words": ["frontmatter", "Haro", "mailchimp", "Qiita"],
   "japanese-proofreading.textlint.全角文字と半角文字の間": false,
-  "japanese-proofreading.textlint.全角文字どうし": false
+  "japanese-proofreading.textlint.全角文字どうし": false,
+  "markdown.validate.enabled": true,
+  "markdown.validate.ignoredLinks": [
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.gif",
+    "**/*.svg"
+  ]
 }
