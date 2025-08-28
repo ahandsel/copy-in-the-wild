@@ -4,6 +4,7 @@ description: If you found my content helpful, consider buying me a coffee to kee
 layout: 'doc'
 outline: 'deep'
 footer: 'false'
+order: 0
 ---
 
 # {{$frontmatter.title}}
