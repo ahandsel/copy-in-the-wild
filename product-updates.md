@@ -1,4 +1,14 @@
-# Notes on Writing Product Updates
+---
+title: Notes on Writing Product Updates
+description: A guide and references for writing effective product updates.
+layout: doc
+outline: deep
+footer: true
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 
 ## References
