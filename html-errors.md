@@ -1,4 +1,16 @@
-# Standard HTML error codes
+---
+title: HTML Error Messages
+description: A collection of standard HTML error messages and their UX copy examples for common HTTP status codes
+layout: doc
+outline: deep
+footer: true
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
+
+[[toc]]
 
 
 ## 500 - Server Error
