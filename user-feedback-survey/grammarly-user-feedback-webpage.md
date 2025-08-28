@@ -1,6 +1,6 @@
 ---
-title: User feedback survey
-description: Examples of user feedback survey emails and consent forms from Calendly and Grammarly.
+title: Grammarly User Feedback Survey Webpage
+description: An example of user feedback survey introduction and consent form from Grammarly.
 layout: doc
 outline: deep
 footer: true
@@ -11,62 +11,7 @@ footer: true
 {{$frontmatter.description}}
 
 
-## Table of contents <!-- omit in toc -->
-
-* [Calendly's User Feedback Email](#calendlys-user-feedback-email)
-* [Reference Grammarly's Survey for User Feedback](#reference-grammarlys-survey-for-user-feedback)
-  * [Email](#email)
-  * [Survey Introduction](#survey-introduction)
-  * [Survey Consent Form](#survey-consent-form)
-
-
-## Calendly's User Feedback Email
-
-**Subject Line**:  
-Help shape the future of meeting tools - we want your feedback!
-
-**Email body**:  
-Hi Vybe,  
-
-My name is {staffName} and I'm on the product team at Calendly.  
-
-We're looking for participants to provide feedback on some new ideas we're working on at Calendly and help us make improvements. We'd love to hear from you!  
-
-This study will be completely virtual and will take about 30 minutes. All you need is a computer with Zoom and an internet connection. After qualifying and completing the research session, you'll receive $75.00 via choice of dozens of digital gift cards as a thank you.  
-
-We have a few questions to make sure this study is a good fit for you. If you qualify, you'll receive more details from our team via email. Click the button below to get started!  
-
-
-[Apply to see if you qualify] //Call To Action Button
-
-
-Best,  
-{staffName}
-
-
-## Reference Grammarly's Survey for User Feedback
-
-
-### Email
-
-**Subject Line**:  
-A reward for sharing your thoughts? Yep.
-
-**Email body**:  
-Hi there,  
-
-We're inviting you to share your thoughts about Grammarly Business. Your feedback will guide Grammarly's evolution and help millions of people worldwide improve their communication.  
-
-Can you help us improve by taking 5 minutes to answer a short survey?  
-
-When you complete the survey, we'll send you a $5 digital gift card or donate $5 to the charity of your choice. Please allow up to two weeks to receive the thank you gift.  
-  
-[Take our survey!] //Call To Action Button
-  
-Thank you so much for your interest in sharing feedback with Grammarly!
-
-
-### Survey Introduction
+## Survey Introduction
 
 Thank you for participating in our survey! Please answer the following questions. Your responses will go directly to our team to help improve Grammarly.
 
@@ -75,7 +20,7 @@ As a thank you for completing this survey, we will send your thank you gift to t
 Click the arrow to continue.  
 
 
-### Survey Consent Form
+## Survey Consent Form
 
 Before you begin the survey, please review the following consent form:
 
