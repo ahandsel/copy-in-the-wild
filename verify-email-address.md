@@ -1,4 +1,14 @@
-# Example Verify Email Address Emails
+---
+title: Example Verify Email Address Emails
+description: Examples of verify email address emails and related UX copy from Discord and Okta.
+layout: doc
+outline: deep
+footer: true
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->
@@ -22,7 +32,7 @@
 Verify Email Address for Discord
 
 **Email body**:  
-Hey {{username}},
+Hey {username},
 Thanks for registering for an account on Discord! Before we get started, we just need to confirm that this is you. Click below to verify your email address:
 
 [Verify Email]
@@ -50,7 +60,7 @@ Button: [Log In]
 Discord Email Address Changed
 
 **Email body**:  
-What's up {{username}},
+What's up {username},
 Your Discord account email address has been successfully changed. It's kinda like moving to a new address without all the couch lifting and back pain!
 
 If this wasn't done by you, please contact dis.gd/contact immediately so we can investigate further.
@@ -71,7 +81,7 @@ Sent by Discord • Check Our Blog • @discord
 Discord Email Address Changed
 
 **Email body**:  
-What's up {{username}},
+What's up {username},
 Your Discord account email address has been successfully changed!
 
 If this change wasn't made by you, or was made in error, use the button below within 48 hours of receiving this email to revert the change.

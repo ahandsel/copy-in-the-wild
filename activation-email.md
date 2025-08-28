@@ -1,3 +1,11 @@
+---
+title: Activation Email
+description: Example of activation email for subscription services.
+layout: 'doc'
+outline: 'deep'
+footer: 'true'
+---
+
 # Emails confirming activation of subscription
 
 
@@ -26,10 +34,10 @@ To prevent disruption of services, follow the steps below to keep your billing i
 ### Your Google Workspace account
 
 > **Username:**  
-> {{user_email_address}}
+> {user_email_address}
 > 
 > **Domain:**  
-> {{domain_name}}
+> {domain_name}
 
 [Sign in](https://admin.google.com/)
 

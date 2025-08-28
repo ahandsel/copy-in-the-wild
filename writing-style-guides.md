@@ -1,6 +1,16 @@
-# Writing Style Guides
+---
+title: Writing Style Guides
+description: A collection of writing style guides for technical writers.
+layout: 'doc'
+outline: 'deep'
+footer: 'true'
+---
+
+# {{$frontmatter.title}}
 
 _Design Systems_ for technical writers
+
+{{$frontmatter.description}}
 
 
 ## Open Source Style Guides

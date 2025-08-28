@@ -1,4 +1,14 @@
-# Google Admin Console - Delete User UX Copy
+---
+title: Delete User - Google Admin Console
+description: UX copy for deleting a user in Google Admin Console, including modal text and confirmation email.
+layout: 'doc'
+outline: 'deep'
+footer: 'true'
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->
@@ -26,7 +36,7 @@
 
 ### Title
 
-Delete user {{user_full_name}}
+Delete user {user_full_name}
 
 
 ### Banner 1
@@ -61,7 +71,7 @@ Doing so ensures that the class content remains available to your organization.
 
 #### Data in other apps
 
-* Select the user you want to transfer **{{user_full_name}}'s** data to (for example, a manager)
+* Select the user you want to transfer **{user_full_name}'s** data to (for example, a manager)
 * Select data to transfer:
   * [ ] Drive And Docs
   * [ ] Include files that are not shared with anyone.
@@ -101,7 +111,7 @@ Once you delete this user their license will be removed.
 ### Title
 
 Deleting user
-{{user_full_name}}
+{user_full_name}
 
 
 ### Body
@@ -116,16 +126,16 @@ After the deletion you have 20 days to restore the account, after which all the 
 ## Confirmation email
 
 **Subject line:**  
-Your deletion of {{user_full_name}} from Google Workspace was successful
+Your deletion of {user_full_name} from Google Workspace was successful
 
 **Body:**  
 ![Google Workspace] logo
 
 Hello Admin,  
 
-Google Workspace recently processed a request from {{admin_user_name}} ({{admin_user_email_address}}) to delete {{user_full_name}} ({{user_email_address}}) and transfer their data to {{admin_user_name}} ({{admin_user_email_address}}).
+Google Workspace recently processed a request from {admin_user_name} ({admin_user_email_address}) to delete {user_full_name} ({user_email_address}) and transfer their data to {admin_user_name} ({admin_user_email_address}).
 
-The data transfer was successful and {{user_full_name}} ({{user_email_address}}) was deleted.
+The data transfer was successful and {user_full_name} ({user_email_address}) was deleted.
 
 **Sincerely,**
 **The Google Workspace Team**

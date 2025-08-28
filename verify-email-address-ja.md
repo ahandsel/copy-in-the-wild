@@ -1,4 +1,14 @@
-# Example Verify Email Address Emails
+---
+title: Example Verify Email Address Emails in Japanese
+description: Examples of verify email address emails and related UX copy in Japanese from Qiita.
+layout: doc
+outline: deep
+footer: true
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->
@@ -44,22 +54,22 @@
 > Confirm your email
 
 **Email body**:  
-こんにちは、{{username}}さん。
+こんにちは、{username}さん。
 Qiitaにご登録いただいたメールアドレスを確認します。
 24時間以内に下記へアクセスし、登録を完了してください。
 
 [メールアドレスを認証]
 
 上記のリンクが開けない場合は、お手数ですが以下のURLをコピーしてお使いください。
-{{verifyUrl}}
+{verifyUrl}
 
-> Hello {{username}}.
+> Hello {username}.
 > Please confirm your email address by clicking belows URL. The URL is valid for 24hours.
 >
 > [Confirm email]
 >
 > Having trouble with the link? Copy and Paste this link into your browser.
-> {{verifyUrl}}
+> {verifyUrl}
 
 
 ### Related toast messages

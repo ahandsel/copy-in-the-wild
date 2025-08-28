@@ -1,4 +1,14 @@
-# Warning Login Email
+---
+title: Warning Login Email
+description: Example emails sent to users when system detects a login from an unrecognized device or location.
+layout: 'doc'
+outline: 'deep'
+footer: 'true'
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 These are emails sent to users when system detects a login from an unrecognized device or location. The email serves as a warning to the user to ensure their account security.
 
@@ -11,7 +21,7 @@ We detected a suspicious login attempt
 **Email body**:  
 
 ```md
-Hello {{username}},
+Hello {username},
 
 ### We detected a login attempt from an unrecognised device.
 This could have been an attempt at fraud. To keep your account secure, we need to confirm if it was you.

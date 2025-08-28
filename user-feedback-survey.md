@@ -1,4 +1,14 @@
-# User feedback survey
+---
+title: User feedback survey
+description: Examples of user feedback survey emails and consent forms from Calendly and Grammarly.
+layout: doc
+outline: deep
+footer: true
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->
@@ -18,7 +28,7 @@ Help shape the future of meeting tools - we want your feedback!
 **Email body**:  
 Hi Vybe,  
 
-My name is {{staffName}} and I'm on the product team at Calendly.  
+My name is {staffName} and I'm on the product team at Calendly.  
 
 We're looking for participants to provide feedback on some new ideas we're working on at Calendly and help us make improvements. We'd love to hear from you!  
 
@@ -31,7 +41,7 @@ We have a few questions to make sure this study is a good fit for you. If you qu
 
 
 Best,  
-{{staffName}}
+{staffName}
 
 
 ## Reference Grammarly's Survey for User Feedback
