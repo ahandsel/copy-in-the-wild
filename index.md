@@ -1,8 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-
 layout: home
-
 title: Copy in the Wild
 titleTemplate: 'We have tracked rare copy in its natural habitat:<br>UX, emails, and clever word beasts - captured for your creative safari.'
 
@@ -52,4 +50,3 @@ features:
     details: Admin-facing copy for irreversible actions
     link: /iam/delete-user-google
 ---
-
