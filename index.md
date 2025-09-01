@@ -13,6 +13,8 @@ hero:
   image:
     src: /cat-icon-profile.png
     alt: ahandsel Cat, white cat coding on a laptop
+    width: 200px
+    height: 200px
   # actions:
   #   - theme: brand
   #     text: Travel guides
