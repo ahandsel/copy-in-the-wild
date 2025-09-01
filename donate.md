@@ -1,20 +1,14 @@
 ---
-title: Fuel me with a coffee ☕
-description: If you found my content helpful, consider buying me a coffee to keep me going.
+title: Found it helpful? ☕
+description: If you found this helpful, consider buying me a coffee to keep me going.
 layout: 'doc'
 outline: 'deep'
 footer: 'false'
-order: 0
+order: 100
 ---
 
-# {{$frontmatter.title}}
+# Did you find this website helpful?
 
-{{$frontmatter.description}}
+If so, please star the [GitHub repo](https://github.com/ahandsel/copy-in-the-wild) and consider [buying me a coffee](https://ko-fi.com/ahandsel) to keep me going.
 
-::: tip
-[Ko-fi](https://ko-fi.com/ahandsel)
-:::
-
-::: tip
-Not into money? Share the site, star the repo, or report issues. It helps.
-:::
+Thank you for your support! ヽ(´▽`)/
