@@ -39,7 +39,7 @@ const vitePressOptions = {
       { text: "Home  ✍️", link: "/" },
       { text: "Tokyo-Geek  🗼", link: "https://ahandsel.github.io/tokyo-geek/" },
       { text: "Tokyo Hiker  🥾", link: "https://ahandsel.github.io/Tokyo_Hiker/" },
-      { text: "Found it helpful?", link: "/donate" },
+      { text: "Feeling lucky? 🎲", link: "/donate" },
     ],
 
     sidebar: [
