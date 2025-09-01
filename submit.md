@@ -1,11 +1,11 @@
 ---
-title: Want to contribute?
+title: Want to contribute? ✍️
 description: Please share your favorite works of copywriting by submitting a pull request or opening an issue on GitHub.
 layout: 'home'
 outline: 'deep'
 footer: 'false'
 sidebar: 'true'
-order: 100
+order: 99
 hero:
   name: "Want to contribute?"
   tagline: "Please share your favorite works of copywriting by submitting a pull request or opening an issue on GitHub."
