@@ -7,15 +7,15 @@ footer: 'false'
 sidebar: 'true'
 order: 99
 hero:
-  name: "Want to contribute?"
-  tagline: "Please share your favorite works of copywriting by submitting a pull request or opening an issue on GitHub."
+  name: 'Want to contribute?'
+  tagline: 'Please share your favorite works of copywriting by submitting a pull request or opening an issue on GitHub.'
   actions:
     - theme: alt
       text: Github Issues 📝
       link: https://github.com/ahandsel/copy-in-the-wild/issues/new
     - theme: alt
       text: Contribute via PR 🔀
-      link: 
+      link:
 
 features:
   - title: Create new issue 📝

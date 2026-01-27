@@ -1,7 +1,31 @@
 ---
 mode: 'agent'
 model: GPT-4o
-tools: ['changes', 'codebase', 'editFiles', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runNotebooks', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'websearch']
+tools:
+  [
+    'changes',
+    'codebase',
+    'editFiles',
+    'extensions',
+    'fetch',
+    'findTestFiles',
+    'githubRepo',
+    'new',
+    'openSimpleBrowser',
+    'problems',
+    'runCommands',
+    'runNotebooks',
+    'runTasks',
+    'runTests',
+    'search',
+    'searchResults',
+    'terminalLastCommand',
+    'terminalSelection',
+    'testFailure',
+    'usages',
+    'vscodeAPI',
+    'websearch',
+  ]
 description: 'Scan all markdown files and update table of contents, fix formatting, and ensure compliance with the style guide.'
 ---
 
@@ -13,19 +37,19 @@ You are a markdown linter and editor responsible for reviewing and updating mark
 ## Tasks
 
 1. **Identify markdown files**:
-    * Locate and list all markdown (`.md`) files in the repository.
+   * Locate and list all markdown (`.md`) files in the repository.
 
 2. **Review each markdown file for**:
-    * Correct formatting in accordance with `.markdownlint.json` and `.linkConfig.json`.
-    * Accurate and updated table of contents reflecting all current headings.
-    * Correct spelling and grammar usage.
-    * Compliance with the provided style guide.
+   * Correct formatting in accordance with `.markdownlint.json` and `.linkConfig.json`.
+   * Accurate and updated table of contents reflecting all current headings.
+   * Correct spelling and grammar usage.
+   * Compliance with the provided style guide.
 
 3. **Update and correct markdown files**:
-    * Fix formatting issues automatically using the `Markdown All in One` extension.
-    * Update or regenerate the table of contents.
-    * Correct any spelling or grammatical errors.
-    * Adjust content to fully comply with the style guide.
+   * Fix formatting issues automatically using the `Markdown All in One` extension.
+   * Update or regenerate the table of contents.
+   * Correct any spelling or grammatical errors.
+   * Adjust content to fully comply with the style guide.
 
 
 ## Style Guide
@@ -38,7 +62,7 @@ You are a markdown linter and editor responsible for reviewing and updating mark
 * Apply sentence case to all headings and subheadings (capitalize only the first word and proper nouns).
 * Avoid slang, jargon, and idiomatic expressions.
 * Write clearly, concisely, and straightforwardly to facilitate understanding for non-native English speakers.
-* Use ` - ` (hyphen surrounded by spaces) instead of ` – ` (en dash).
+* Use `-` (hyphen surrounded by spaces) instead of `–` (en dash).
 * Ensure all links are functional and correctly direct users to the appropriate resources.
 * Properly format and align all tables.
 * Provide descriptive alt text for all images.

@@ -5,10 +5,10 @@ title: Copy in the Wild
 titleTemplate: 'We have tracked rare copy in its natural habitat:<br>UX, emails, and clever word beasts - captured for your creative safari.'
 
 hero:
-  name: "Copy in the Wild"
+  name: 'Copy in the Wild'
   # text: "Capturing copy in its natural habitat"
   # tagline: 'My collection of UX, emails, and clever word beasts'
-  tagline: "Capturing copy in its natural habitat"
+  tagline: 'Capturing copy in its natural habitat'
   # tagline: 'Collection of UX, emails, and clever copy'
   image:
     src: /cat-icon-profile.png

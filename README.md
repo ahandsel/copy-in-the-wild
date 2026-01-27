@@ -26,5 +26,4 @@ Link Checking
 markdownlint-cli2 "**/*.md" "#node_modules"
 ```
 
-
 </details>

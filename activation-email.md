@@ -14,7 +14,7 @@ footer: 'true'
 **Subject line:**  
 Thank you for activating your subscription
 
-**Body:**  
+**Body:**
 
 ```md
 ## Your Google Voice Starter subscription has been activated
@@ -35,7 +35,7 @@ To prevent disruption of services, follow the steps below to keep your billing i
 
 > **Username:**  
 > {user_email_address}
-> 
+>
 > **Domain:**  
 > {domain_name}
 
@@ -45,7 +45,7 @@ Sincerely,
 The Google Workspace Team
 
 © 2025 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
-*You're receiving this mandatory email service announcement to update you about important changes to your Google Workspace product or account.*
+_You're receiving this mandatory email service announcement to update you about important changes to your Google Workspace product or account._
 ```
 
 
@@ -54,7 +54,7 @@ The Google Workspace Team
 **Subject line:**  
 You're invited to use Claude with cybozu
 
-**Body:**  
+**Body:**
 
 ```md
 # Use Claude with cybozu

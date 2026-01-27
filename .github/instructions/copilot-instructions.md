@@ -1,10 +1,13 @@
 # Project overview
 
-This project is a VitePress-based documentation site that provides reference material and guides for writers. It is built using VitePress, a static site generator powered by Vite and Vue (https://vitepress.dev/).
+This project is a VitePress-based documentation site that provides reference material and guides for writers. It is built using VitePress, a static site generator powered by Vite and Vue (<https://vitepress.dev/>).
+
 
 ## Folder structure
+
 * `.github/`: GitHub-specific files, including issue templates and workflows.
 * `public/`: Image assets used in the documentation.
+
 
 ## Purpose
 
@@ -33,8 +36,8 @@ Every Markdown file must include frontmatter that matches the site settings.
 
 ```yaml
 ---
-title: "Page title"
-description: "1-2 sentence summary for search and previews"
+title: 'Page title'
+description: '1-2 sentence summary for search and previews'
 layout: doc
 outline: deep
 footer: true
@@ -52,7 +55,7 @@ Reference: VitePress frontmatter configuration: <https://vitepress.dev/reference
 
 * Use proper heading levels to keep a valid outline. Start with one H1 per page.
 * Use lists for steps and enumerations.
-* Use fenced code blocks with a language tag, for example, ```ts or```bash.
+* Use fenced code blocks with a language tag, for example, `ts or`bash.
 * Use inline code for short identifiers, file names, and commands.
 * Use relative links like `[text](../guide/page.md)` when linking within the repo.
 * Ensure links resolve after build, and avoid hard-coded domains unless required.
@@ -82,6 +85,7 @@ Use only for critical risks.
 :::
 
 ::: code-group
+
 ```ts [example.ts]
 // TypeScript sample
 ```
@@ -91,7 +95,6 @@ Use only for critical risks.
 ```
 
 :::
-
 ````
 
 
