@@ -11,8 +11,6 @@ import {
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css';
 
-import RegisterSW from './components/RegisterSW.vue';
-
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -25,8 +23,6 @@ export default {
         // h(OtherComponent), // Your other nav components
         h(NolebaseEnhancedReadabilitiesScreenMenu), // Enhanced Readabilities menu for small screens
       ],
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      'layout-bottom': () => h(RegisterSW),
     });
   },
   enhanceApp({ app, router, siteData }) {

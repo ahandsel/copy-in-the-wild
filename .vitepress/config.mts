@@ -1,7 +1,6 @@
 // .vitepress/config.ts
 import { defineConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
-import { withPwa } from '@vite-pwa/vitepress';
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
@@ -79,41 +78,6 @@ const vitePressOptions = {
   },
   ignoreDeadLinks: true,
 
-  // PWA options handled by @vite-pwa/vitepress
-  pwa: {
-    strategies: 'generateSW',
-    mode: 'development',
-    registerType: 'autoUpdate',
-    injectRegister: 'script-defer',
-    includeAssets: ['favicon.ico', 'pwa-192x192.png'],
-    manifest: {
-      name: 'Copy in the Wild',
-      short_name: 'copy-in-the-wild',
-      theme_color: '#ffffff',
-      start_url: '/copy-in-the-wild/',
-      display: 'standalone',
-      background_color: '#ffffff',
-      icons: [], // will be generated
-    },
-    // Ensure a preset is provided for the assets generator
-    pwaAssets: {
-      // config: true,
-      preset: 'minimal-2023',
-      image: 'public/cat-icon-profile.png',
-    },
-    workbox: {
-      globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff2}'],
-    },
-    experimental: {
-      includeAllowlist: true,
-    },
-    devOptions: {
-      enabled: false,
-      suppressWarnings: true,
-      navigateFallback: '/',
-    },
-  },
-
   vite: {
     optimizeDeps: {
       exclude: [
@@ -180,12 +144,6 @@ const vitePressSidebarOptions = [
   },
 ];
 
-// export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
-// export default defineConfig(
-//   withPwa(withSidebar(vitePressOptions, vitePressSidebarOptions))
-// export default withPwa(
-//   defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions))
-// );
-export default withPwa(
-  defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions)),
+export default defineConfig(
+  withSidebar(vitePressOptions, vitePressSidebarOptions),
 );
