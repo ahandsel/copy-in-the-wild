@@ -47,3 +47,23 @@ The Google Workspace Team
 © 2025 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
 *You're receiving this mandatory email service announcement to update you about important changes to your Google Workspace product or account.*
 ```
+
+
+## Claude Team invitation
+
+**Subject line:**  
+You're invited to use Claude with cybozu
+
+**Body:**  
+
+```md
+# Use Claude with cybozu
+
+Invited by {claude_admin_email_address}
+
+{claude_admin_email_address} is an admin inviting you to use Claude with them on the Team plan and get early access to new collaboration features.
+
+[Accept Invitation]
+
+By continuing, you agree to join the Team plan managed by your Admin, and acknowledge the Anthropic Privacy Policy. Learn more about the Team plan.
+```
