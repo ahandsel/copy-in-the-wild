@@ -10,3 +10,5 @@ order: 1
 # {{$frontmatter.title}}
 
 {{$frontmatter.description}}
+
+<!--@include: ../snippets/md-index-list.md-->
