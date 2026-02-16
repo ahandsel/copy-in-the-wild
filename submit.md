@@ -15,7 +15,7 @@ hero:
       link: https://github.com/ahandsel/copy-in-the-wild/issues/new
     - theme: alt
       text: Contribute via PR 🔀
-      link:
+      link: https://github.com/ahandsel/copy-in-the-wild/fork
 
 features:
   - title: Create new issue 📝
