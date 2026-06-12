@@ -2,3 +2,7 @@
 
 # Delay installing published versions to reduce security risk.
 minimumReleaseAge: 4320 # Three-day buffer for security updates.
+
+allowBuilds:
+  esbuild: true
+  sharp: true

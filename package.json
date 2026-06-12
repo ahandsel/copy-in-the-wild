@@ -44,14 +44,8 @@
     "vitepress-sidebar": "^1.36.1",
     "vue": "^3.5.35"
   },
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.5.3",
   "engines": {
-    "node": ">=20"
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "onFail": "error"
-    }
+    "node": ">=24"
   }
 }
