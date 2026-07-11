@@ -16,7 +16,8 @@
 * Group related changes into logical bullets.
 * Include testing, risk, migration, or rationale bullets only when supported by evidence.
 * Omit file-by-file noise unless a specific file change is important.
-* Do not split a sentence with a new line. No wrapping needed.
+* Do not split a sentence with a new line. Keep each bullet on a single line, no matter how long.
+* Manage line length by writing shorter sentences or splitting one idea into several bullets, never by hard-wrapping a sentence across lines.
 
 
 ## Commit type emoji guide
