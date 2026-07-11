@@ -41,7 +41,7 @@ jobs:
 
       # Step 3: Install pnpm package manager (use detected version)
       - name: Install pnpm
-        uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # pnpm/action-setup@v4.2.0, pinned
+        uses: pnpm/action-setup@d15e628ca66d93ee5f352c71671a7bc6a97af5c9 # pnpm/action-setup@v6.0.8, pinned
         with:
           version: ${{ steps.pnpm-version.outputs.version }}
 
@@ -62,12 +62,12 @@ jobs:
 
       # Step 7: Prepare artifact for GitHub Pages
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # actions/configure-pages@v5.0.0, pinned
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # actions/configure-pages@v6.0.0, pinned
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # actions/upload-pages-artifact@v4.0.0, pinned
         with:
-          path: .vitepress/dist
+          path: contents/.vitepress/dist
 
   deploy:
     name: Deploy to GitHub Pages
