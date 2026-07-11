@@ -1,13 +1,16 @@
 # .github/workflows/deploy.yml
 # Build and deploy a VitePress site to GitHub Pages
-# Triggered on pushes to the main branch or "Run workflow" button
+# On pushes to main or a manual "Run workflow": build, then deploy to Pages
+# On pull requests targeting main: build only, as a check (no deploy)
 
 name: Deploy VitePress site to GitHub Pages
 
 on:
   workflow_dispatch: {} # Allow manual execution from the GitHub Actions tab
   push:
-    branches: [main] # Run this workflow only for commits to `main`
+    branches: [main] # Build and deploy on commits to `main`
+  pull_request:
+    branches: [main] # Build only (no deploy) to verify PRs targeting `main`
 
 permissions:
   contents: read
@@ -17,7 +20,8 @@ permissions:
 # Ensures that only one deploy runs at a time for this project
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: false
+  # Cancel a superseded PR build-check, but never cancel an in-progress deploy
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   # Build and upload job
@@ -41,7 +45,7 @@ jobs:
 
       # Step 3: Install pnpm package manager (use detected version)
       - name: Install pnpm
-        uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # pnpm/action-setup@v4.2.0, pinned
+        uses: pnpm/action-setup@d15e628ca66d93ee5f352c71671a7bc6a97af5c9 # pnpm/action-setup@v6.0.8, pinned
         with:
           version: ${{ steps.pnpm-version.outputs.version }}
 
@@ -60,18 +64,21 @@ jobs:
       - name: Build VitePress site
         run: pnpm build
 
-      # Step 7: Prepare artifact for GitHub Pages
+      # Step 7: Prepare and upload the Pages artifact (skipped on pull requests)
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # actions/configure-pages@v5.0.0, pinned
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # actions/configure-pages@v6.0.0, pinned
 
       - name: Upload GitHub Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # actions/upload-pages-artifact@v4.0.0, pinned
         with:
-          path: .vitepress/dist
+          path: contents/.vitepress/dist
 
   deploy:
     name: Deploy to GitHub Pages
     needs: build
+    if: github.event_name != 'pull_request' # Deploy only for main pushes and manual runs
     runs-on: ubuntu-latest
     environment:
       name: github-pages
