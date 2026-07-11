@@ -42,6 +42,8 @@ Want to give us feedback? Let us know what you think on our [feedback site].
 Sent by Discord - [Check Our Blog] - [@discord]
 444 De Haro Street, Suite 200, San Francisco, CA 94107
 
+![Discord's verify email address email](/discord-verify-email.png)
+
 
 ### Email verification link expired page
 
