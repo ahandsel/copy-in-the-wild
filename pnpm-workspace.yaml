@@ -1,3 +1,6 @@
+allowBuilds:
+  esbuild: false
+  sharp: false
 # Configure pnpm settings for the workspace
 
 # Delay installing published versions to reduce security risk.
