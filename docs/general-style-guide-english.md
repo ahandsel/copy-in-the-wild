@@ -389,7 +389,7 @@ Ref: [Parentheses | Google developer documentation style guide][google-parenthes
 
 Use for placeholders, where a variable is inserted by the system.
 
-* Example: `Are you sure you want to remove {{userName}} from the {{groupName}} group?`
+* Example: `Are you sure you want to remove {userName} from the {groupName} group?`
 
 
 ### Ampersand `&`
