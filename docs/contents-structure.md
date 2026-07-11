@@ -11,13 +11,18 @@
 │   └───📄 index.md
 ├───📁 public/
 │   ├───📄 airbuddy-setapp-subscription-error.png
+│   ├───📄 android-chrome-192x192.png
+│   ├───📄 android-chrome-512x512.png
 │   ├───📄 apple-touch-icon-180x180.png
-│   ├───📄 cat-icon-background.png
-│   ├───📄 cat-icon-clear.png
-│   ├───📄 cat-icon-profile.png
+│   ├───📄 apple-touch-icon.png
+│   ├───📄 deer-detective-clear.png
+│   ├───📄 deer-detective-emblem-background.png
+│   ├───📄 deer-detective-emblem.png
 │   ├───📄 delete-user-google.png
 │   ├───📄 discord-email-verify-expired.png
 │   ├───📄 discord-verify-email.png
+│   ├───📄 favicon-16x16.png
+│   ├───📄 favicon-32x32.png
 │   ├───📄 favicon.ico
 │   ├───📄 favicon.svg
 │   ├───📄 google-account-passkeys.png
@@ -32,6 +37,7 @@
 │   ├───📄 microsoft-feedback-icon.png
 │   ├───📄 remember-this-computer.png
 │   ├───📄 robots.txt
+│   ├───📄 site.webmanifest
 │   ├───📄 slack-ios-feedback-prompt.png
 │   ├───📄 slack-ios-preferences.png
 │   ├───📄 slack-up-to-date.png

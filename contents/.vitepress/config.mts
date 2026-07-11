@@ -14,18 +14,45 @@ const vitePressOptions = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['link', { rel: 'icon', href: `${base}favicon.ico`, type: 'image/x-icon' }],
     [
-      'meta',
+      'link',
       {
-        name: 'keywords',
-        content: 'ux copy, email copy, ahandsel, GitHub, VitePress',
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: `${base}favicon.svg`,
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: `${base}favicon-16x16.png`,
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: `${base}favicon-32x32.png`,
       },
     ],
     [
       'link',
       {
         rel: 'apple-touch-icon',
-        href: `${base}apple-touch-icon-180x180.png`,
         sizes: '180x180',
+        href: `${base}apple-touch-icon.png`,
+      },
+    ],
+    ['link', { rel: 'manifest', href: `${base}site.webmanifest` }],
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content: 'ux copy, email copy, ahandsel, GitHub, VitePress',
       },
     ],
   ],

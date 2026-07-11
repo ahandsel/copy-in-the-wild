@@ -11,10 +11,8 @@ hero:
   tagline: 'Capturing copy in its natural habitat'
   # tagline: 'Collection of UX, emails, and clever copy'
   image:
-    src: /cat-icon-clear.png
-    alt: ahandsel Cat, white cat coding on a laptop
-    width: 200px
-    height: 200px
+    src: /deer-detective-emblem.png
+    alt: Deer detective looking for copy in the bookshelf
   # actions:
   #   - theme: brand
   #     text: Travel guides
