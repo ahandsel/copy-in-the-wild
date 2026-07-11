@@ -27,18 +27,33 @@ hero:
   #     link: /tips/
 
 features:
+  - title: 🎉 Account Created
+    details: Welcome emails that confirm a new account and guide first steps
+    link: /account-created
   - title: 🗑️ Account Deletion
     details: Clear patterns and phrasing for closing accounts
     link: /account-deletion
   - title: ✉️ Activation Email
     details: Real examples that drive first-run activation
     link: /activation-email
+  - title: 🙏 Apology Email
+    details: Owning outages and service issues with grace
+    link: /apology-email
+  - title: 🚚 Migration
+    details: Announcing platform moves and downtime without churn
+    link: /migration
   - title: ✅ Verify Email Address
     details: Confirmation flows that reduce friction and bounce
     link: /verify-email-address
   - title: ⚠️ Warning Login Email
     details: Security-minded alerts that users actually read
     link: /warning-login-email
+  - title: 🔐 Login and Security
+    details: Passkeys, two-step verification, and login activity copy
+    link: /login-and-security
+  - title: 💬 App Status Dialogs
+    details: Desktop app status and error messages, captured in context
+    link: /app-status-dialogs
   - title: 📝 User Feedback Survey
     details: Copy that earns responses without bias
     link: /user-feedback-survey
