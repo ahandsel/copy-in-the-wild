@@ -11,7 +11,7 @@ excludeFromSidebar: true
  * Generate a list of markdown pages in the same folder, excluding index.md.
  * Each entry includes metadata (title and description) parsed from frontmatter.
  */
-import yaml from 'js-yaml'
+import { load as loadYaml } from 'js-yaml'
 
 /** Load Markdown in this folder (and subfolders) as raw strings. */
 const modules = import.meta.glob('./**/*.md', {
@@ -34,7 +34,7 @@ function toString(mod: unknown): string {
 function parseFrontmatter(md: string): { title?: string; description?: string } {
   const m = md.match(/^---\s*[\r\n]([\s\S]*?)\n---\s*[\r\n]?/)
   if (!m) return {}
-  try { return (yaml.load(m[1]) || {}) as any } catch { return {} }
+  try { return (loadYaml(m[1]) || {}) as any } catch { return {} }
 }
 
 /** Build list and exclude index.md. */
