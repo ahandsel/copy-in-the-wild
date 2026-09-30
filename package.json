@@ -46,12 +46,6 @@
   },
   "packageManager": "pnpm@11.11.0",
   "engines": {
-    "node": ">=20"
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "onFail": "error"
-    }
+    "node": ">=24"
   }
 }
