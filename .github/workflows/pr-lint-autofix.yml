@@ -27,7 +27,7 @@ jobs:
           echo "version=${version}" >> "$GITHUB_OUTPUT"
 
       - name: Install pnpm
-        uses: pnpm/action-setup@d15e628ca66d93ee5f352c71671a7bc6a97af5c9 # pnpm/action-setup@v6.0.8, pinned
+        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # pnpm/action-setup@v6.0.8, pinned
         with:
           version: ${{ steps.pnpm-version.outputs.version }}
 
